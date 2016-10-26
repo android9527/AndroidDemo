@@ -1,1 +1,1 @@
-include ':app', ':material', ':depthviewlib'
+include ':app', ':material', ':depthviewlib', ':FlycoPageIndicator_Lib'
