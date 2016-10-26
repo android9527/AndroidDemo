@@ -48,6 +48,7 @@ dependencies {
     compile project(':depthviewlib')
     compile project(':pageindicatorview')
     compile project(':FlycoBanner_Lib')
+    compile project(':freshdownloadview')
 
     compile project(':FlycoPageIndicator_Lib')
     compile fileTree(dir: 'libs', include: ['*.jar'])

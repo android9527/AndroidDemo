@@ -50,6 +50,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name="com.rd.pageindicatorview.home.PageIndicatorActivity"
                   android:screenOrientation="portrait"/>
+        <activity android:name="com.pitt.freshdownloadview.FreshDownloadViewMainActivity"
+                  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

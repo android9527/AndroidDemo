@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import com.demo.toolbar.ToolbarActivity;
 import com.demo.toolbar.ToolbarActivity2;
 import com.flyco.indicatorsamples.ui.SimpleHomeActivity;
+import com.pitt.freshdownloadview.FreshDownloadViewMainActivity;
 import com.rd.pageindicatorview.home.PageIndicatorActivity;
 import com.rey.material.demo.MainActivity;
 
@@ -66,6 +67,9 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //PageIndicatorActivity
         demos.add(new DemoDetails("PageIndicatorActivity", "PageIndicatorActivity",
                 PageIndicatorActivity.class));
+        //FreshDownloadView
+        demos.add(new DemoDetails("FreshDownloadView", "FreshDownloadView",
+                FreshDownloadViewMainActivity.class));
     }
 
     @Override

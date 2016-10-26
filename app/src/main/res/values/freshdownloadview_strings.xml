@@ -1,0 +1,5 @@
+<resources>
+    <string name="start">下载成功</string>
+    <string name="reset">重置状态</string>
+    <string name="show_error">下载失败</string>
+</resources>
