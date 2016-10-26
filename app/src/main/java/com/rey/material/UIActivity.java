@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import com.demo.toolbar.ToolbarActivity;
 import com.demo.toolbar.ToolbarActivity2;
 import com.flyco.indicatorsamples.ui.SimpleHomeActivity;
+import com.rd.pageindicatorview.home.PageIndicatorActivity;
 import com.rey.material.demo.MainActivity;
 
 import java.util.ArrayList;
@@ -62,6 +63,9 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //FlycoPageIndicator
         demos.add(new DemoDetails("FlycoPageIndicator", "FlycoPageIndicator",
                 SimpleHomeActivity.class));
+        //PageIndicatorActivity
+        demos.add(new DemoDetails("PageIndicatorActivity", "PageIndicatorActivity",
+                PageIndicatorActivity.class));
     }
 
     @Override

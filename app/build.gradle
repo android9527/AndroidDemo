@@ -46,6 +46,7 @@ ext{
 
 dependencies {
     compile project(':depthviewlib')
+    compile project(':pageindicatorview')
 
     compile project(':FlycoPageIndicator_Lib')
     compile fileTree(dir: 'libs', include: ['*.jar'])

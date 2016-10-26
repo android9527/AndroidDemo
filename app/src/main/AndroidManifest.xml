@@ -48,6 +48,8 @@
         <activity
             android:name="com.flyco.indicatorsamples.ui.FlycoPageIndicaorActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name="com.rd.pageindicatorview.home.PageIndicatorActivity"
+                  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
