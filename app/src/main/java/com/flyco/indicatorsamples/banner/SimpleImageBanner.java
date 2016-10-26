@@ -31,11 +31,11 @@ public class SimpleImageBanner extends BaseBanner<Integer, SimpleImageBanner> {
 
     @Override
     public View onCreateItemView(int position) {
-        View inflate = View.inflate(context, R.layout.flyco_adapter_simple_image, null);
+        View inflate = View.inflate(mContext, R.layout.flyco_adapter_simple_image, null);
         ImageView iv = ViewFindUtils.find(inflate, R.id.iv);
 
-        Integer i = list.get(position);
-        int itemWidth = dm.widthPixels;
+        Integer i = mDatas.get(position);
+        int itemWidth = mDisplayMetrics.widthPixels;
         int itemHeight = (int) (itemWidth * 360 * 1.0f / 640);
         iv.setScaleType(ImageView.ScaleType.CENTER_CROP);
         iv.setLayoutParams(new LinearLayout.LayoutParams(itemWidth, itemHeight));
