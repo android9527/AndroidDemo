@@ -2,29 +2,31 @@ package com.rey.material;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.demo.toolbar.ToolBarActivity;
+import com.demo.toolbar.ToolbarActivity;
+import com.demo.toolbar.ToolbarActivity2;
 import com.rey.material.demo.MainActivity;
 
 import java.util.ArrayList;
 
 import com.rey.material.demo.R;
 
+import no.agens.depth.RootActivity;
+
 /**
  * Created by chenfeiyue on 16/10/25.
  */
 
-public class UIActivity extends AppCompatActivity implements UIAdapter.OnRecycleViewListener{
+public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewListener{
 
     RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ui);
+
         recyclerView = (RecyclerView) findViewById(R.id.recycle_view);
         recyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
@@ -33,6 +35,11 @@ public class UIActivity extends AppCompatActivity implements UIAdapter.OnRecycle
         recyclerView.setAdapter(adapter);
         adapter.setViewModels(demos);
         adapter.setOnRecycleViewListener(this);
+    }
+
+    @Override
+    public void setupContentView() {
+        setContentView(R.layout.activity_ui);
     }
 
 
@@ -44,7 +51,13 @@ public class UIActivity extends AppCompatActivity implements UIAdapter.OnRecycle
                 MainActivity.class));
         //ToolBar
         demos.add(new DemoDetails("ToolBar", "ToolBar",
-                ToolBarActivity.class));
+                ToolbarActivity.class));
+        //ToolBar2
+        demos.add(new DemoDetails("ToolBar2", "ToolBar2",
+                ToolbarActivity2.class));
+        //ToolBar2
+        demos.add(new DemoDetails("Depth-LIB-Android", "Depth-LIB-Android",
+                RootActivity.class));
     }
 
     @Override

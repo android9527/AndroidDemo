@@ -2,6 +2,7 @@ package com.rey.material.utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Resources;
 import android.util.DisplayMetrics;
 
 
@@ -26,7 +27,14 @@ public class ScreenUtils {
         mActivity.getWindowManager().getDefaultDisplay().getMetrics(dMetrics);
         maxWidthDpi = px2dip(mActivity, dMetrics.widthPixels);
         maxHeightDpi = px2dip(mActivity, dMetrics.heightPixels);
-        System.out.println("分辨率宽度：" + dMetrics.widthPixels + "~ 分辨率高度：" + dMetrics.heightPixels + "~密度:" + dMetrics.density + "~密度Dpi:" + dMetrics.densityDpi + "~Dip宽度：" + maxWidthDpi + "~Dip高度:" + maxHeightDpi);
+        LogUtil.e("ScreenUtils", "分辨率宽度：" + dMetrics.widthPixels + "~ 分辨率高度：" + dMetrics.heightPixels + "~密度:" + dMetrics.density + "~密度Dpi:" + dMetrics.densityDpi + "~Dip宽度：" + maxWidthDpi + "~Dip高度:" + maxHeightDpi);
+
+        Resources resources = mActivity.getResources();
+        DisplayMetrics dm = resources.getDisplayMetrics();
+        float density1 = dm.density;
+        int width3 = dm.widthPixels;
+        int height3 = dm.heightPixels;
+        LogUtil.e("ScreenUtils", "分辨率宽度：" + width3 + "~ 分辨率高度：" + height3 + "~密度:" + density1);
     }
 
     /* 根据手机的分辨率从 px(像素) 的单位 转成为 dip */

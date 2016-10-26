@@ -19,11 +19,11 @@ import com.rey.material.utils.LogUtil;
  * Created by chenfeiyue on 16/10/25.
  */
 
-public class ToolBarFragment extends BaseFragment {
+public class ToolbarFragment extends BaseFragment {
     private static final java.lang.String TAG = "ToolBarFragment";
 
-    public static ToolBarFragment newInstance() {
-        return new ToolBarFragment();
+    public static ToolbarFragment newInstance() {
+        return new ToolbarFragment();
     }
 
     @Override

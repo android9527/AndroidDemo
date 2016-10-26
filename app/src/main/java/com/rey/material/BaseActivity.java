@@ -18,6 +18,7 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.rey.material.utils.AppManager;
+import com.rey.material.utils.ScreenUtils;
 import com.rey.material.utils.SystemBarTintManager;
 
 import butterknife.ButterKnife;
@@ -54,6 +55,9 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
         setupContentView();
         ButterKnife.bind(this);
+
+        ScreenUtils.getDisplayMetrics(this);
+
     }
 
     @Override
