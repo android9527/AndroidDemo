@@ -15,6 +15,7 @@ import com.rey.material.demo.MainActivity;
 import java.util.ArrayList;
 
 import com.rey.material.demo.R;
+import com.yyh.lib.IncrMainActivity;
 
 import no.agens.depth.RootActivity;
 
@@ -70,6 +71,9 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //FreshDownloadView
         demos.add(new DemoDetails("FreshDownloadView", "FreshDownloadView",
                 FreshDownloadViewMainActivity.class));
+        //增量更新
+        demos.add(new DemoDetails("增量更新", "IncrMainActivity",
+                IncrMainActivity.class));
     }
 
     @Override

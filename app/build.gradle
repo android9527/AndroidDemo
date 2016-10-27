@@ -14,12 +14,25 @@ android {
         targetSdkVersion 23
         versionCode 5
         versionName "0.0.5"
+
+//        ndk{
+//            moduleName "ApkPatchLibrary"
+//            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+//        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+//            jni.srcDirs = ['src/main/jni', 'src/main/jni/']
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['libs'] // 若不想编译jni代码，可直接引用so库，ndk编译相关脚本注释掉
         }
     }
 
