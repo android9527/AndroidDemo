@@ -1,12 +1,5 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- toolbar（actionbar）颜色 -->
-        <item name="colorPrimary">#2196F3</item>
-        <!--toolbar标题文字颜色-->
-        <item name="android:textColorPrimary">@android:color/white</item>
-    </style>
-
     <!-- toolbar菜单样式 -->
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="actionMenuTextColor">@android:color/white</item>
