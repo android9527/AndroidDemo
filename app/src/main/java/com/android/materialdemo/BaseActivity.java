@@ -1,4 +1,4 @@
-package com.rey.material;
+package com.android.materialdemo;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -22,7 +22,6 @@ import com.rey.material.utils.ScreenUtils;
 import com.rey.material.utils.SystemBarTintManager;
 
 import butterknife.ButterKnife;
-import com.android.materialdemo.R;
 
 
 /**

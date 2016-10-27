@@ -1,4 +1,4 @@
-package com.rey.material;
+package com.android.materialdemo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,9 +15,9 @@ import com.rey.material.demo.MainActivity;
 
 import java.util.ArrayList;
 
-import com.android.materialdemo.R;
 import com.yyh.lib.IncrMainActivity;
 
+import app.dinus.com.example.LoadingMainActivity;
 import no.agens.depth.RootActivity;
 
 /**
@@ -78,6 +78,9 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //日历控件
         demos.add(new DemoDetails("日历控件", "CalendarMainActivity",
                 CalendarMainActivity.class));
+        //Loading
+        demos.add(new DemoDetails("LoadingDrawable", "LoadingMainActivity",
+                LoadingMainActivity.class));
     }
 
     @Override

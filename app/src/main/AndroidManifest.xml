@@ -11,7 +11,7 @@
         android:supportsRtl="true">
 
         <activity
-            android:name="com.rey.material.UIActivity"
+            android:name=".UIActivity"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustPan">
 
@@ -60,6 +60,27 @@
                   android:screenOrientation="portrait"/>
 
         <activity android:name="com.eroad.widget.calendar.CalendarMainActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="app.dinus.com.example.CircleJumpActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="app.dinus.com.example.CircleRotateActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="app.dinus.com.example.SceneryActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="app.dinus.com.example.AnimalActivity"
+                  android:hardwareAccelerated="false"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="app.dinus.com.example.GoodsActivity"
+                  android:hardwareAccelerated="false"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="app.dinus.com.example.ShapeChangeActivity"
+                  android:hardwareAccelerated="false"
                   android:screenOrientation="portrait"/>
     </application>
 

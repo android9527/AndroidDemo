@@ -1,4 +1,4 @@
-package com.rey.material;
+package com.android.materialdemo;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;

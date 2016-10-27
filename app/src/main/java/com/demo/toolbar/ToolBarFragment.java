@@ -10,8 +10,8 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.rey.material.BaseActivity;
-import com.rey.material.BaseFragment;
+import com.android.materialdemo.BaseActivity;
+import com.android.materialdemo.BaseFragment;
 import com.android.materialdemo.R;
 import com.rey.material.utils.LogUtil;
 

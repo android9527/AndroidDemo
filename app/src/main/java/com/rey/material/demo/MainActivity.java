@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements ToolbarManager.On
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.loading_activity_main);
 				
 		dl_navigator = (DrawerLayout)findViewById(R.id.main_dl);
 		fl_drawer = (FrameLayout)findViewById(R.id.main_fl_drawer);

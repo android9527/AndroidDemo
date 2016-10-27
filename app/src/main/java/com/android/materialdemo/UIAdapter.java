@@ -1,4 +1,4 @@
-package com.rey.material;
+package com.android.materialdemo;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,10 +9,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import com.android.materialdemo.R;
 
 /**
  * Created by chenfeiyue on 16/10/11.

@@ -2,7 +2,7 @@ package com.demo.toolbar;
 
 import android.os.Bundle;
 
-import com.rey.material.BaseActivity;
+import com.android.materialdemo.BaseActivity;
 import com.android.materialdemo.R;
 
 public class ToolbarActivity extends BaseActivity {
