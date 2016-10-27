@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.flyco.banner.widget.Banner.base.BaseBanner;
 import com.flyco.indicatorsamples.utils.ViewFindUtils;
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 public class SimpleImageBanner extends BaseBanner<Integer, SimpleImageBanner> {
 

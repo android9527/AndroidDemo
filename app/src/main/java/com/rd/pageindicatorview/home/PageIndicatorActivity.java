@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 import java.util.ArrayList;
 import java.util.List;

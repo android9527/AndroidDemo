@@ -32,7 +32,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.rey.material.util.ThemeUtil;
 import com.rey.material.util.ViewUtil;
 import com.rey.material.widget.CompoundButton;

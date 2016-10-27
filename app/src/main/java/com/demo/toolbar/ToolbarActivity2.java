@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 /**
  * Created by chenfeiyue on 16/10/26.

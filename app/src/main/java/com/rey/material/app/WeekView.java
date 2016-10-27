@@ -5,7 +5,6 @@ import android.content.res.ColorStateList;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.Paint;
-import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
@@ -14,13 +13,11 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.rey.material.util.ThemeUtil;
-import com.rey.material.util.ViewUtil;
 import com.rey.material.widget.CircleCheckedTextView;
 
 import java.util.Calendar;
-import java.util.Locale;
 
 /**
  * Created by Rey on 2/6/2015.
@@ -87,12 +84,12 @@ public class WeekView extends FrameLayout{
     private void init(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes){
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, com.rey.material.demo.R.styleable.WeekView, defStyleAttr, defStyleRes);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.WeekView, defStyleAttr, defStyleRes);
 
-        mVerticalPadding = a.getDimensionPixelOffset(com.rey.material.demo.R.styleable.WeekView_wv_verticalPadding, ThemeUtil.dpToPx(context, 8));
-        mHorizontalPadding = a.getDimensionPixelOffset(com.rey.material.demo.R.styleable.WeekView_wv_horizontalPadding, ThemeUtil.dpToPx(context, 8));
-        int animDuration = a.getInteger(com.rey.material.demo.R.styleable.WeekView_wv_animDuration, context.getResources().getInteger(android.R.integer.config_mediumAnimTime));
-        mBackgroundColors = a.getColorStateList(com.rey.material.demo.R.styleable.WeekView_wv_backgroundColor);
+        mVerticalPadding = a.getDimensionPixelOffset(R.styleable.WeekView_wv_verticalPadding, ThemeUtil.dpToPx(context, 8));
+        mHorizontalPadding = a.getDimensionPixelOffset(R.styleable.WeekView_wv_horizontalPadding, ThemeUtil.dpToPx(context, 8));
+        int animDuration = a.getInteger(R.styleable.WeekView_wv_animDuration, context.getResources().getInteger(android.R.integer.config_mediumAnimTime));
+        mBackgroundColors = a.getColorStateList(R.styleable.WeekView_wv_backgroundColor);
 
         a.recycle();
 

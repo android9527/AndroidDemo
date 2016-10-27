@@ -7,7 +7,8 @@ import android.animation.ValueAnimator;
 import android.support.annotation.NonNull;
 import android.view.View;
 
-import com.rey.material.demo.R;
+
+import com.android.materialdemo.R;
 
 import no.agens.depth.lib.DepthLayout;
 import no.agens.depth.lib.tween.interpolators.BackOut;

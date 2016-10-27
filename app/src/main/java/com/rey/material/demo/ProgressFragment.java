@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.materialdemo.R;
 import com.rey.material.widget.ProgressView;
 
 public class ProgressFragment extends Fragment implements Callback{

@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.pitt.library.fresh.FreshDownloadView;
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 
 public class FreshDownloadViewMainActivity extends Activity implements View.OnClickListener {

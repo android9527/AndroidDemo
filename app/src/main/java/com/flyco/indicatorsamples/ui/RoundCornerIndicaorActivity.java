@@ -7,7 +7,7 @@ import android.view.View;
 import com.flyco.indicatorsamples.banner.SimpleImageBanner;
 import com.flyco.indicatorsamples.utils.ViewFindUtils;
 import com.flyco.pageindicator.indicator.RoundCornerIndicaor;
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 import java.util.ArrayList;
 

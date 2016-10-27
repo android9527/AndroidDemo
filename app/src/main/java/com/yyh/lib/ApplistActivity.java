@@ -18,7 +18,7 @@ import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.yyh.lib.adapter.AppsAdapter;
 import com.yyh.lib.utils.FileUtils;
 

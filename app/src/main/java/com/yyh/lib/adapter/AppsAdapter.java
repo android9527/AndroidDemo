@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 import java.util.ArrayList;
 

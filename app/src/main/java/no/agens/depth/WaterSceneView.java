@@ -7,7 +7,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 import no.agens.depth.lib.headers.NoiseEffect;
 import no.agens.depth.lib.headers.Renderable;

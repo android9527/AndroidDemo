@@ -9,7 +9,7 @@ android {
         jackOptions {
             enabled true
         }
-        applicationId "com.rey.material"
+        applicationId "com.android.materialdemo"
         minSdkVersion 21
         targetSdkVersion 23
         versionCode 5
@@ -63,6 +63,7 @@ dependencies {
     compile project(':pageindicatorview')
     compile project(':FlycoBanner_Lib')
     compile project(':freshdownloadview')
+    compile project(':calendarview_res')
 
     compile project(':FlycoPageIndicator_Lib')
     compile fileTree(dir: 'libs', include: ['*.jar'])

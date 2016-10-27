@@ -1,5 +1,6 @@
 package com.rey.material.demo;
 
+import com.android.materialdemo.R;
 import com.rey.material.app.ContactEditText;
 import com.rey.material.drawable.ContactChipDrawable;
 import com.rey.material.text.style.ContactChipSpan;

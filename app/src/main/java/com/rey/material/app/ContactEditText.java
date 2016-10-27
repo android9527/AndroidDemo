@@ -36,7 +36,7 @@ import android.widget.MultiAutoCompleteTextView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.rey.material.text.style.ContactChipSpan;
 import com.rey.material.util.ThemeUtil;
 import com.rey.material.util.TypefaceUtil;

@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 
 import com.demo.toolbar.ToolbarActivity;
 import com.demo.toolbar.ToolbarActivity2;
+import com.eroad.widget.calendar.CalendarMainActivity;
 import com.flyco.indicatorsamples.ui.SimpleHomeActivity;
 import com.pitt.freshdownloadview.FreshDownloadViewMainActivity;
 import com.rd.pageindicatorview.home.PageIndicatorActivity;
@@ -14,7 +15,7 @@ import com.rey.material.demo.MainActivity;
 
 import java.util.ArrayList;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.yyh.lib.IncrMainActivity;
 
 import no.agens.depth.RootActivity;
@@ -74,6 +75,9 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //增量更新
         demos.add(new DemoDetails("增量更新", "IncrMainActivity",
                 IncrMainActivity.class));
+        //日历控件
+        demos.add(new DemoDetails("日历控件", "CalendarMainActivity",
+                CalendarMainActivity.class));
     }
 
     @Override

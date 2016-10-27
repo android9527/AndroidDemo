@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.yyh.lib.bsdiff.DiffUtils;
 import com.yyh.lib.bsdiff.PatchUtils;
 import com.yyh.lib.utils.FileUtils;

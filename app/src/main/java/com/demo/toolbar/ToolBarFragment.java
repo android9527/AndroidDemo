@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 
 import com.rey.material.BaseActivity;
 import com.rey.material.BaseFragment;
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 import com.rey.material.utils.LogUtil;
 
 /**

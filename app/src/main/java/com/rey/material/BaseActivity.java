@@ -22,7 +22,7 @@ import com.rey.material.utils.ScreenUtils;
 import com.rey.material.utils.SystemBarTintManager;
 
 import butterknife.ButterKnife;
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 
 /**

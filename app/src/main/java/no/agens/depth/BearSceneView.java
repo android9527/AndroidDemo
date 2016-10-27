@@ -8,7 +8,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 import no.agens.depth.lib.MathHelper;
 import no.agens.depth.lib.headers.AuraDrawable;

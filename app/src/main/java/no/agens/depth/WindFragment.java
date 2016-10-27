@@ -17,7 +17,7 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 import no.agens.depth.lib.MaterialMenuDrawable;
 

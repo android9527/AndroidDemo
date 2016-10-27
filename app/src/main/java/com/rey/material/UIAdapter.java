@@ -12,7 +12,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.rey.material.demo.R;
+import com.android.materialdemo.R;
 
 /**
  * Created by chenfeiyue on 16/10/11.
