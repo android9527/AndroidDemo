@@ -82,6 +82,17 @@
         <activity android:name="app.dinus.com.example.ShapeChangeActivity"
                   android:hardwareAccelerated="false"
                   android:screenOrientation="portrait"/>
+        <activity android:name="app.dinus.com.example.LoadingMainActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name="mr_immortalz.com.stereoview.StereoViewMainActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="mr_immortalz.com.stereoview.ImageActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="mr_immortalz.com.stereoview.LoginActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="mr_immortalz.com.stereoview.SettingActivity"
+                  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

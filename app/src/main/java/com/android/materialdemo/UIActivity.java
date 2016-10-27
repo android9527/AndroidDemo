@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import com.yyh.lib.IncrMainActivity;
 
 import app.dinus.com.example.LoadingMainActivity;
+import mr_immortalz.com.stereoview.StereoViewMainActivity;
 import no.agens.depth.RootActivity;
 
 /**
@@ -54,13 +55,10 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //MainActivity
         demos.add(new DemoDetails("material", "material",
                 MainActivity.class));
-        //ToolBar
-        demos.add(new DemoDetails("ToolBar", "ToolBar",
-                ToolbarActivity.class));
         //ToolBar2
         demos.add(new DemoDetails("ToolBar2", "ToolBar2",
                 ToolbarActivity2.class));
-        //ToolBar2
+        //Depth-LIB-Android
         demos.add(new DemoDetails("Depth-LIB-Android", "Depth-LIB-Android",
                 RootActivity.class));
         //FlycoPageIndicator
@@ -81,6 +79,10 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //Loading
         demos.add(new DemoDetails("LoadingDrawable", "LoadingMainActivity",
                 LoadingMainActivity.class));
+
+        //stereoview
+        demos.add(new DemoDetails("3D立体旋转", "StereoViewMainActivity",
+                StereoViewMainActivity.class));
     }
 
     @Override
