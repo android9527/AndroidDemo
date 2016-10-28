@@ -1,5 +1,6 @@
 package com.yyh.lib.utils;
 
+import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 
@@ -30,14 +31,14 @@ public class FileUtils {
      *
      * @return
      */
-    public static String createRootPath() {
+    public static String createRootPath(Context context) {
         if (isSdCardAvailable()) {
             // /sdcard/Android/data/<application package>/cache
-            cacheRootPath = App.mContext.getExternalCacheDir()
+            cacheRootPath = context.getExternalCacheDir()
                     .getPath();
         } else {
             // /data/data/<application package>/cache
-            cacheRootPath = App.mContext.getCacheDir().getPath();
+            cacheRootPath = context.getCacheDir().getPath();
         }
         return cacheRootPath;
     }
@@ -89,8 +90,8 @@ public class FileUtils {
      *
      * @return 创建失败, 返回""
      */
-    public static String getImageCachePath() {
-        String path = createDir(createRootPath() + File.separator + "img"
+    public static String getImageCachePath(Context context) {
+        String path = createDir(createRootPath(context) + File.separator + "img"
                 + File.separator);
         return path;
     }
@@ -100,8 +101,8 @@ public class FileUtils {
      *
      * @return 创建失败, 返回""
      */
-    public static String getImageCropCachePath() {
-        String path = createDir(createRootPath() + File.separator + "imgCrop"
+    public static String getImageCropCachePath(Context context) {
+        String path = createDir(createRootPath(context) + File.separator + "imgCrop"
                 + File.separator);
 
         return path;

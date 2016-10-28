@@ -19,7 +19,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.materialdemo.R;
-import com.yyh.lib.adapter.AppsAdapter;
 import com.yyh.lib.utils.FileUtils;
 
 import java.io.File;

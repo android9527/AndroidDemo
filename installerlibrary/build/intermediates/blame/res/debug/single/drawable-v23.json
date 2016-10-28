@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chenfeiyue/Work/github_source_code/AndroidDemo/installerlibrary/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/chenfeiyue/Work/github_source_code/AndroidDemo/installerlibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/chenfeiyue/Work/github_source_code/AutoInstaller/installerlibrary/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/chenfeiyue/Work/github_source_code/AutoInstaller/installerlibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v23/abc_control_background_material.xml"
+    }
+]

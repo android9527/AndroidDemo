@@ -20,6 +20,7 @@ import com.yyh.lib.IncrMainActivity;
 import app.dinus.com.example.LoadingMainActivity;
 import mr_immortalz.com.stereoview.StereoViewMainActivity;
 import no.agens.depth.RootActivity;
+import top.wuhaojie.installer.InstallMainActivity;
 
 /**
  * Created by chenfeiyue on 16/10/25.
@@ -83,6 +84,10 @@ public class UIActivity extends BaseActivity implements UIAdapter.OnRecycleViewL
         //stereoview
         demos.add(new DemoDetails("3D立体旋转", "StereoViewMainActivity",
                 StereoViewMainActivity.class));
+
+        //autoinstall
+        demos.add(new DemoDetails("autoinstall", "InstallMainActivity",
+                InstallMainActivity.class));
     }
 
     @Override
